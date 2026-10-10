@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Neon Gate Arc (3/4 circle with opening at bottom) -->
+    <!-- Arc starting at 45 degrees, sweeping 270 degrees to 315 degrees -->
+    <path
+        android:pathData="M 70.97,70.97 A 24,24 0 1,0 37.03,70.97"
+        android:strokeColor="#FF2A55"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- Outer Thin Cyan Glow Ring -->
+    <path
+        android:pathData="M 75.21,75.21 A 30,30 0 1,0 32.79,75.21"
+        android:strokeColor="#4000F0FF"
+        android:strokeWidth="2" />
+
+    <!-- Gate Opening Node Accents -->
+    <path
+        android:pathData="M 70.97,70.97 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#00F0FF" />
+    <path
+        android:pathData="M 37.03,70.97 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#00F0FF" />
+
+    <!-- Player Glowing Energy Sphere at the gate entrance -->
+    <!-- Outer Glow -->
+    <path
+        android:pathData="M 54,74 m -12,0 a 12,12 0 1,0 24,0 a 12,12 0 1,0 -24,0"
+        android:fillColor="#4D00F0FF" />
+
+    <!-- Core Sphere -->
+    <path
+        android:pathData="M 54,74 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0"
+        android:fillColor="#00F0FF" />
+
+    <!-- Hot White Center -->
+    <path
+        android:pathData="M 54,74 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Speed Dash Upward Streaks -->
+    <path
+        android:pathData="M 54,64 L 54,48"
+        android:strokeColor="#8000F0FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 50,60 L 50,52"
+        android:strokeColor="#4000E5BC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 58,60 L 58,52"
+        android:strokeColor="#4000E5BC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>
